@@ -191,7 +191,6 @@ int alInsert(ArrayList *al, void *newElement)
     al->count++;
     return 1;
 }
-
 int alInsertAt(ArrayList *al, void *newElement, unsigned position)
 {
     if (position < 0 || position > al->count)
